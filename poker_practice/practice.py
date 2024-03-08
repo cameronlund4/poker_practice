@@ -71,6 +71,7 @@ def main():
         print()
 
         winner_guess, winner_guess_text = get_winner_guess_or_quit(hand_players, wins, losses)
+        print()
         print_table(table, hands, classes)
         print()
 
